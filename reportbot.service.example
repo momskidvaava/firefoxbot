@@ -1,0 +1,15 @@
+[Unit]
+Description=firefoxbot
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/telegram-report-bot/
+ExecStart=/opt/telegram-report-bot/venv/bin/python bot.py
+KillMode=process
+Restart=always
+RestartSec=10
+EnvironmentFile=/opt/.env
+
+[Install]
+WantedBy=multi-user.target
