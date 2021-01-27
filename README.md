@@ -1,7 +1,7 @@
-![logo](https://telegra.ph/file/29916307687189e84676f.jpg)
+![logo](https://telegra.ph/file/33d7e0f35452ab55f9c06.jpg)
 💌 Reach me on Telegram  
 
-## [![FIREFOXBOT]](https://t.me/VillainProBot)
+# ![FIREFOXBOT](https://t.me/VillainProBot)
 
 This repository contains sources of a small yet rather powerful bot for Telegram, which handles reports from users and passes them to admins. Uses [aiogram](https://github.com/aiogram/aiogram) framework.  
 The main goal was to build a bot with no external database needed. Thus, it may lack some features, but hey, it's open source!
